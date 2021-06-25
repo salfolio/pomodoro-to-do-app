@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pomodoro App</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="header">
+                <h1 id="toggle-type">Focus</h1>
+                <p id="timer">25:00</p>
+                <div class="buttons">
+                    <button id="start-btn">Start</button>
+                    <button id="stop-btn">Stop</button>
+                    <button id="reset-btn">Reset</button>
+                </div>
+                <h1 id="pomodoro-count">Round: 0</h1>
+               
+            </div>
+            <div class="to-do-section">
+                <!-- <h3>Tasks To Do</h3> -->
+                <input id='tasks-input' type='text'>
+                <button id='tasks-btn'>Add Task</button>
+                <div class="task-table">
+                    <p id="default-text">You don't have any tasks to do.</p>
+                    <!-- <tr>
+                        <th>Completed</th>
+                        <th>Task</th>
+                    </tr> -->
+                </div>
+            </div>
+        </div>
+    </body>
+      <!-- javascript -->
+    <script src="app.js"></script>
+</html>
